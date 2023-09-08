@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NBA Team Selection</title>
+</head>
+<body>
+    <h1>Select NBA Teams</h1>
+    <form method="POST" action="/results">
+        <label for="team_choice">Choose Your Team:</label>
+        <select id="team_choice" name="team_choice">
+            {% for team in nba_teams %}
+                <option value="{{ team['full_name'] }}">{{ team['full_name'] }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="opponent_choice">Choose Opponent Team:</label>
+        <select id="opponent_choice" name="opponent_choice">
+            {% for team in nba_teams %}
+                <option value="{{ team['full_name'] }}">{{ team['full_name'] }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" name="stats_type" value="Get Stats">
+        <input type="submit" name="stats_type" value="Get Stats graph">
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NBA Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <p>Selected Team: {{ selected_team }}</p>
+    <p>Selected Opponent: {{ selected_opponent }}</p>
+    <p>Average Plus-Minus for Away Games: {{ average_plus_minus_away }}</p>
+
+    <h2>DataFrame for Home Matchups:</h2>
+    <div>{{ games_home|safe }}</div>
+
+    <h2>DataFrame for Away Matchups:</h2>
+    <div>{{ games_away|safe }}</div>
+
+    {% if display_graph %}
+    <h2>Plus-Minus Plot</h2>
+    <img src="data:image/png;base64,{{ plus_minus_plot }}" alt="Plus-Minus Plot">
+    {% endif %}
+
+    <a href="/">Back to Team Selection</a>
+</body>
+</html>
