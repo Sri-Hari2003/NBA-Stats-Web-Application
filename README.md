@@ -1,8 +1,5 @@
 # NBA Stats Web Application
 
-![NBA Logo]([![image](https://github.com/Sri-Hari2003/NBA-Stats-Web-Application/assets/118734000/d4ab42d0-d910-4031-a67c-5177db68e4b0)](https://imgs.search.brave.com/d7ypZ16df2Q8WzzPKOjAuSWUPKd0FlpNaOXPzqG9iKg/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/MC8wMy9OYXRpb25h/bF9CYXNrZXRiYWxs/X0Fzc29jaWF0aW9u/X2xvZ28uc3ZnLzUx/MnB4LU5hdGlvbmFs/X0Jhc2tldGJhbGxf/QXNzb2NpYXRpb25f/bG9nby5zdmcucG5n)
-)
-
 This is a web application built using Flask that allows users to select NBA teams, view game statistics, and visualize the Plus-Minus stats between two teams.
 
 ## Table of Contents
