@@ -10,7 +10,7 @@ This is a web application built using Flask that allows users to select NBA team
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Demo
 
